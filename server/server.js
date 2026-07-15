@@ -36,6 +36,10 @@ app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
 
 // Basic health-check route
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'Server is running' });
+});
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'MERN E-Commerce API is running' });
 });
