@@ -117,6 +117,36 @@ const importData = async () => {
         countInStock: 15,
         isFeatured: false,
       },
+      {
+        user: adminUser,
+        name: 'Apple Watch Series 9',
+        image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=60',
+        description: 'Stay connected, track workouts, and monitor health with a bright always-on display and advanced sensors.',
+        category: electronicsId,
+        price: 399.99,
+        countInStock: 18,
+        isFeatured: true,
+      },
+      {
+        user: adminUser,
+        name: 'ChefMate Blender Pro',
+        image: 'https://images.unsplash.com/photo-1570560252456-2af2f6d8f7d5?w=600&auto=format&fit=crop&q=60',
+        description: 'A powerful countertop blender with multiple presets, durable stainless steel blades, and a large jar for smoothies and soups.',
+        category: homeKitchenId,
+        price: 89.5,
+        countInStock: 22,
+        isFeatured: false,
+      },
+      {
+        user: adminUser,
+        name: 'Classic Canvas Tote Bag',
+        image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=60',
+        description: 'A versatile everyday tote made from durable canvas with roomy interiors and a clean minimalist look.',
+        category: fashionId,
+        price: 34.99,
+        countInStock: 30,
+        isFeatured: false,
+      },
     ]);
 
     console.log('Products seeded successfully!');
